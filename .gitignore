@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Local development settings
+.env
+.vscode/
+.idea/
+
+# Logs and debugging
+*.log
+screenshot.png
+
+# NLTK downloaded data (should be downloaded by user)
+nltk_data/
+
+# Generated results (examples will be kept)
+results/*
+!results/.gitkeep
+
+# Playwright browser binaries
+playwright-browsers/
+
+# System files
+.DS_Store
+Thumbs.db
